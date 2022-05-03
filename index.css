@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+.ref {
+    position: relative;
+    height: 300px;
+    border: 10px double red;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.ref:hover {
+    border: 15px solid rgb(211, 116, 28);
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+}
